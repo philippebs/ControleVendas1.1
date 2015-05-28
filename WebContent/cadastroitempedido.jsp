@@ -5,21 +5,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="css/estilo.css">
-<title>Cadastro de Cliente</title>
+<title>Cadastro de Item Pedido</title>
 </head>
 <body>
 	
-	<h3 class="titulo">Cadastro Cliente</h3>
+	<h3 class="titulo">Cadastro Item Pedido</h3>
 	<a href="index.jsp">Inicial</a>
 	&nbsp; | &nbsp;
-	<a href="cadastrocliente.jsp">Cadastro</a>
+	<a href="cadastroitempedido.jsp">Cadastro</a>
 	&nbsp; | &nbsp;
-	<a href="controlecliente?acao=consulta">Consulta</a>
+	<a href="#?acao=consulta">Consulta</a>
 	<hr />
 	<p />
 	<b>${msg}</b>
 	
-	<form action="controlecliente?acao=cadastro" method="post">
+	<form action="#?acao=cadastro" method="post">
 		
 		Nome:<br />
 		<input type="text" name="nome" placeholder="Digite o nome do cliente" />

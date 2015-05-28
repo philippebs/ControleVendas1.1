@@ -34,13 +34,5 @@
 		<input type="submit" value="Logar" />
 	</form>
 	
-	
-	<br />
-	
-	<br />
-	
-	<br />
-	
-	<br />
 </body>
 </html>
