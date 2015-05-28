@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+  <session-factory>
+
+	<!-- Parametros de conexão entre o Hibernate e o Oracle. -->
+    <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+    <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+    <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:XE</property>
+    <property name="hibernate.connection.username">system</property>
+    <property name="hibernate.connection.password">tobd</property>
+    <property name="hibernate.format_sql">true</property>
+ 
+ 	<!-- Registro de Classes ORM. -->
+ 	<mapping class="entidade.Cliente" />
+ 	<mapping class="entidade.ItemPedido" />
+ 	<mapping class="entidade.Pedido"/>
+ 	<mapping class="entidade.Produto"/>
+ 	<mapping class="entidade.Usuario"/>
+ 
+  </session-factory>
+
+</hibernate-configuration>
