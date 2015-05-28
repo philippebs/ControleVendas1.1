@@ -22,7 +22,7 @@
 	<p />
 	<b>${msg}</b>
 	
-	<form action="controlecliente?acao=cadastro" method="post">
+	<form action="#?acao=cadastro" method="post">
 		
 		Código:<br />
 		<input type="text" name="codigo" placeholder="Digite o codigo do pedido" />
