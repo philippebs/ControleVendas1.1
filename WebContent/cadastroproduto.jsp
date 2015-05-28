@@ -47,23 +47,6 @@
 			<p />
 			
 		</fieldset>
-		
-		<fieldset>
-			<legend>Informe o endereço do cliente</legend>
-			
-			Rua:<br />
-			<input type="text" name="rua" placeholder="Digite a rua" required="required" />
-			<p />
-			
-			Bairro:<br />
-			<input type="text" name="bairro" placeholder="Digite o bairro" required="required" />
-			<p />
-			
-			Cidade:<br />
-			<input type="text" name="cidade" placeholder="Digite a cidade" required="required" />
-			<p />
-			
-		</fieldset>
 		 -->
 		<input type="submit" value="Cadastrar" />
 		<input type="reset" value="Limpar os campos" />
